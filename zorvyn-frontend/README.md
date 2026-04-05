@@ -61,7 +61,12 @@ npm run build
 - Graceful handling of no-data/empty-filter scenarios
 
 ## Optional Enhancements Included
+- Dark mode with persisted theme selection
 - Local storage persistence for transactions
+- Mock API integration with simulated async loading and saves
+- Animations and transitions for cards, loading states, and interactions
+- Export functionality for CSV and JSON
+- Advanced filtering and grouping by time, category, and month
 
 ## Technical Notes
 - Framework: React (Vite)
@@ -75,4 +80,5 @@ npm run build
 - UX: role cues, filter controls, clear labels, state feedback
 - Code quality: modular logic via memoized derived data and reusable helpers
 - Documentation: this README explains setup + feature coverage
+- Optional enhancements: included and documented above
 
