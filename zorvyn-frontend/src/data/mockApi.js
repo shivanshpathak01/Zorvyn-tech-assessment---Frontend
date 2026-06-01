@@ -27,7 +27,7 @@ const readStoredTransactions = () => {
 
 const writeStoredTransactions = (transactions) => {
   if (typeof window === 'undefined') {
-    return
+      return
   }
 
   window.localStorage.setItem(STORAGE_KEY, JSON.stringify(transactions))
